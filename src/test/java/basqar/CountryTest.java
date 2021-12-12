@@ -23,7 +23,7 @@ public class CountryTest {
     @BeforeClass
     public void login()
     {
-        baseURI ="https://test.basqar.techno.study";
+        baseURI ="https://demo.mersys.io";
 
         randomGenName = RandomStringUtils.randomAlphabetic(8);
         randomGenCode = RandomStringUtils.randomAlphabetic(4);
@@ -31,8 +31,8 @@ public class CountryTest {
         // {"username": "daulet2030@gmail.com", "password": "TechnoStudy123@", "rememberMe": true}
 
         Map<String, String> credentials= new HashMap<>();
-        credentials.put("username", "daulet2030@gmail.com");
-        credentials.put("password", "TechnoStudy123@");
+        credentials.put("username", "richfield.edu");
+        credentials.put("password", "Richfield2020!");
         credentials.put("rememberMe", "true");
 
         cookies= given()
